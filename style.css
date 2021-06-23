@@ -3,3 +3,84 @@
     padding: 0;
     font-family: 'Poppins', 'Bebas Neue', cursive, sans-serif;
 }
+
+.top-area{
+    background-color: rgba(255, 3, 66, 0.035);
+    padding: 0 15px;
+}
+
+/* Navbar */
+
+.logo{
+    padding-top: 10px;
+    min-width: 60%;
+    max-width: 80%;
+}
+
+.nav-menu{
+    font-size: 18px;
+    font-weight: 500;
+    margin: 0 10px;
+    color: #000 !important;
+}
+
+.nav-menu:hover{
+    color: #bb0432 !important;
+}
+
+.navbar-nav .active{
+    color: #FF0343 !important;
+    font-weight: 600;
+}
+
+/* Banner */
+
+.banner-area{
+    padding: 50px 0;
+    min-height: 80vh;
+}
+
+.banner-image{
+    padding: 0 30px;
+}
+
+.banner-content{
+    padding: 30px 10px;
+}
+
+.main-heading{
+    font-family:'Bebas Neue';
+    font-size: 4.6em;
+}
+
+.heading-highlight{
+    font-family:'Bebas Neue';
+    color: #FF0343;
+}
+
+.sub-heading{
+    font-size: 1rem;
+    color: #778899;
+    margin-bottom: 25px;
+}
+
+.shop-btn{
+    background: #FF0343;
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.2em;
+    font-weight: 500;
+    padding: 12px 16px;
+    border-radius: 10px;
+    width: 150px;
+}
+
+.shop-btn:hover{
+    color: #fff;
+    background: #212529;
+}
+
+.shop-btn>img{
+    width: 30px;
+    height: 25px;
+}

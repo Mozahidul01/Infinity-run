@@ -1,1 +1,1 @@
-# Infinity-run
+# Infinity Run

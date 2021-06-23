@@ -9,6 +9,11 @@
     padding: 0 15px;
 }
 
+.cart-img{
+    width: 30px;
+    height: 25px;
+}
+
 /* Navbar */
 
 .logo{
@@ -36,8 +41,8 @@
 /* Banner */
 
 .banner-area{
-    padding: 40px 0;
-    min-height: 80vh;
+    padding-top: 40px;
+    padding-bottom: 80px;
 }
 
 .banner-image{
@@ -80,7 +85,63 @@
     background: #212529;
 }
 
-.shop-btn>img{
-    width: 30px;
-    height: 25px;
+/* Product Area */
+
+.product-area{
+    padding-top: 30px;
+    padding-bottom: 60px;
+}
+
+.shoe-category{
+font-family: 'Bebas Neue';
+font-size: 48px;
+margin: 10px 0;
+}
+
+.product{
+    margin: 10px 5px;
+}
+
+.card{
+    padding: 20px 20px 0 20px;
+    margin: 5px;
+    border: none;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border-radius: 20px;
+}
+
+.product-image{
+    background: #f1f1f1;
+    border-radius: 20px;
+}
+
+.product-title{
+    font-size: 1.5em;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+
+.product-details{
+    font-size: 1em;
+    color: #3e3e3e;
+}
+
+.price{
+    font-size: 2.5em;
+    font-weight: 700;
+    color: #212529;
+}
+
+.buy-now-btn{
+    background: #FF0343;
+    color: #fff;
+    height: 45px;
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.buy-now-btn:hover{
+    color: #fff;
+    background: #212529;
 }

@@ -145,3 +145,46 @@ margin: 10px 0;
     color: #fff;
     background: #212529;
 }
+
+
+/* Feature Area */
+
+.features{
+    padding-top: 20px;
+    padding-bottom: 60px;
+}
+
+.feature-img{
+    margin: 20px;
+}
+
+.feature{
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border-radius: 20px;
+    margin: 15px;
+    padding: 20px 20px 10px 20px;
+}
+
+.feature-icon-box{
+    padding: 10px;
+}
+
+.feature-icon{
+    width: 80px;
+}
+
+.feature-content{
+    padding: 5px 10px;
+}
+
+.feature-title{
+    color: #363958;
+    font-size: 1.5em;
+    font-weight: 600;
+
+}
+
+.feature-description{
+    color: #3E3E3E;
+    font-size: 0.9em;
+}
